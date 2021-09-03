@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+
+
+/* ESTILO PARA TIPO ID */
+
+#div1 h1{
+    color: red;
+}
+
+/* ESTILO PARA TIPO CLASS */
+
+.div2 h1{
+    color: orange;
+}
