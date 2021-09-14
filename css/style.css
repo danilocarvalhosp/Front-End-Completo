@@ -9,52 +9,14 @@ html, body {
     height: 100%;
 }
 
-/*
-.lista, .lista2{
-    list-style-position: inside;
-    list-style-type: disc;
-    margin-left: 20px;
+.tipo1{
+    color: rgb(100,100,100);
 }
 
-.lista li, .lista2 li{
-    color: #4b4b4b;
-    font-size: 18px;
-    margin-top: 10px;
+a.link_{
+    font-size:30px;
 }
 
-.lista .item3, .lista2 .item3{
-    font-weight: bold;
-}
-
-ol{
-    list-style-position: inside;
-}
-
-ol > li{
-    color: red
-}
-*/
-
-.um{
-    width: 500px;
-    height: 800px;
-    background-color: red;
-}
-
-.um > .dois{
-    width: 300px;
-    height: 300px;
-    background-color: green;
-}
-
-.um > .tres{
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-}
-
-.tres > .quatro{
-    width: 100px;
-    height: 100px;
-    background-color:gray;
+.tipo2{
+    font-size: 40px;
 }
