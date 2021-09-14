@@ -9,20 +9,33 @@ html, body {
     height: 100%;
 }
 
-/*
-.header{
-    width: 100%;
-    min-width: 1280px;
-    height: 200px;
-    background: gray;
-}
-*/
-
-.article{
-    margin: 0 auto;
+.center{
+    /* box-sizing: border-box; */
     width: 1280px;
-    height: 10%;
-    max-height: 20%;
-    min-height: 50%;
-    background: red;
+    margin: 0 auto;
+    background-color: gray;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.artigo{
+
+    width: 100%;
+    margin-bottom: 40px;
+
+    /* QUE É O MESMO QUE:
+    margin: 50px 30px;
+
+    /* QUE É O MESMO QUE:
+    margin: 50px 30px 50px 30px;
+
+    /* QUE É O MESMO QUE:
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    */
 }
