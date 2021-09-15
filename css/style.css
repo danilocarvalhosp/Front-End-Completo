@@ -14,28 +14,26 @@ html, body {
     width: 1280px;
     margin: 0 auto;
     background-color: gray;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+
 
 }
 
 .artigo{
-
-    width: 100%;
-    margin-bottom: 40px;
-
-    /* QUE É O MESMO QUE:
-    margin: 50px 30px;
-
-    /* QUE É O MESMO QUE:
-    margin: 50px 30px 50px 30px;
-
-    /* QUE É O MESMO QUE:
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    
+    box-sizing: border-box;
+    border: 3px solid rgba(255,255,255, 3);
+    /*
+    border-style: dotted;
+    border-width: 3px;
+    border-color: rgb(255,0,0);
+    
+    QUE É O MESMO QUE: 
     */
+    border: 3px dotted rgb(255,0,0);
+    
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: 30px;
+    width: 640px;
+    vertical-align: top;
 }
