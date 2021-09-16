@@ -3,29 +3,33 @@
     padding: 0;
 }
 
-/* Estilo para conteúdo do nosso site */
-
 html, body {
     height: 100%;
 }
 
-.box, .box2{
-    width: 300px;
-    margin: 0 auto;
-    background: gray;
-    /*
-    display: none;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    */
+.box {
+    width: 40%;
+    height: 300px;
+    color: gray;
 }
 
-.box p, .box2 p{
-    width: 100%;
+.box p {
+    color: initial;
 }
 
-.box2{
-    display: block;
-    margin-top: 20px;
-    background-color: red;
+/*
+.box > .box2 > span {
+    display: inline-block;
+     HERDADO
+    width: inherit;
+    height: inherit;
+    background: inherit;
 }
+
+----------------------------------------------------------------
+
+@media screen and (max-width: 480px) {
+    .box {
+        height: auto;
+}
+*/
