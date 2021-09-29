@@ -7,40 +7,19 @@ html, body {
     height: 100%;
 }
 
-/*
-.table1{
-    width: 900px;
+.bg{
+    width: 50%;
+    height: 50%;
     margin: 0 auto;
-    border-collapse: collapse;
-}
 
-table tr td{
-    background-color: rgb(200,200,200);
-    height: 300px;
-    vertical-align: top;
-    border: 2px solid black;
-}
-*/
+    /* 
+    background-color: #ccc; 
+    background-color: rgb(200,200,200); 
+    background-color: rgba(200,200,200,0.4);  */
 
-.menu-fixed{
-    position: static /* relative / absolute / fixed */;
-    /*
-    left: 30px;
-    top: 70px;
-    right: 0;
-    bottom: 0;
-    */
-    width: 300px;
-    height: 200px;
-    background: #069;
-}
-
-.box{
-    width: 400px;
-    height: 500px;
-    background: green;
-}
-
-.box p{
-    width: 400px;
+    background-color: red;
+    background-image: url('../images/danki_bg.jpg');
+    background-size: contain;
+    background-position: 50% 50%; /* left top (padrão) */
+    background-repeat: no-repeat; /* no-repeat / repeat-x / repeat-y */
 }
