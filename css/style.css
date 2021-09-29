@@ -8,39 +8,39 @@ html, body {
 }
 
 /*
-a[href="http://www.google.com"]{
-    background-color: yellow;
+.table1{
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
 }
 
-[href = "https://www.google.com"]{
-    background-color: red;
-}
-
-a[href*="google"], a[href*="danki"]{
-    background-color: blue;
-}
-
-a[attr~="google"]{
-    background-color: blue;
-}
-
-a[attr|="google-danki"]{
-    background-color: blue;
-}
-
-a[attr^="goo"]{
-    background-color: red;
-}
-
-a[attr$="danki"]{
-    background-color: red;
+table tr td{
+    background-color: rgb(200,200,200);
+    height: 300px;
+    vertical-align: top;
+    border: 2px solid black;
 }
 */
 
-.text[type=text]{
-    background-color: green;
+.menu-fixed{
+    position: static /* relative / absolute / fixed */;
+    /*
+    left: 30px;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    */
+    width: 300px;
+    height: 200px;
+    background: #069;
 }
 
-input[type=submit]{
-    background-color: blue;
+.box{
+    width: 400px;
+    height: 500px;
+    background: green;
+}
+
+.box p{
+    width: 400px;
 }
