@@ -7,29 +7,40 @@ html, body {
     height: 100%;
 }
 
-.box {
-    width: 40%;
-    height: 300px;
-    color: gray;
-}
-
-.box p {
-    color: initial;
-}
-
 /*
-.box > .box2 > span {
-    display: inline-block;
-     HERDADO
-    width: inherit;
-    height: inherit;
-    background: inherit;
+a[href="http://www.google.com"]{
+    background-color: yellow;
 }
 
-----------------------------------------------------------------
+[href = "https://www.google.com"]{
+    background-color: red;
+}
 
-@media screen and (max-width: 480px) {
-    .box {
-        height: auto;
+a[href*="google"], a[href*="danki"]{
+    background-color: blue;
+}
+
+a[attr~="google"]{
+    background-color: blue;
+}
+
+a[attr|="google-danki"]{
+    background-color: blue;
+}
+
+a[attr^="goo"]{
+    background-color: red;
+}
+
+a[attr$="danki"]{
+    background-color: red;
 }
 */
+
+.text[type=text]{
+    background-color: green;
+}
+
+input[type=submit]{
+    background-color: blue;
+}
