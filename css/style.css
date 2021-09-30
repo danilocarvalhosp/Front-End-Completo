@@ -7,58 +7,57 @@ html, body {
     height: 100%;
 }
 
-.teste, .teste1, .teste2 {
-    width: 300px;
-    height: 30px;
-    display: inline-block;
-    margin-left: 30px;
-    margin-top: 30px;
-    /* background-color: #ccc; */
+ul{
+    list-style-position: inside;
 }
 
-.teste1 {
-    background-color: rgb(98,98,98);
+.box > div{
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    height: 400px;
+    background-color: red;
+    border: 1px solid black
 }
 
-.teste2 {
-    background-color: rgb(50,50,50);
+/*
+ul li:nth-of-type(2){
+    color: red;
 }
 
-/* 
---------- EFEITO HOVER (AO PASSAR O MOUSE SOBRE) ----------
-.teste:hover{
-    height: 900px;
-    background-color: blue;
+ul li:nth-child(3){
+    color: red
 }
 
-.teste:hover,.teste1,.teste2 {
-    vertical-align: top;
+.box div:last-of-type{
+    background-color: green;
 }
 
---------- EFEITO ACTIVE (AO PRESSIONAR O MOUSE SOBRE) ----------
-.teste:active{
-    background-color: black;
+.box p:last-of-type{
+    color: rgb(200,200,200);
 }
 
---------- EFEITO FOCUS (EM FORMULÁRIOS, QUANDO O CAMPO TIVER FOCO) ----------
-.teste:focus {
+.box div:last-child p{
+    color: rgba(255,255,255,1);
+}
+
+.box div:not(.one){
+    background-color: gold;
+}
+
+p:empty{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+
+.p::after{
+    content: ' Danilo';
     background-color: red;
 }
 
-.textarea1 {
-    display: block;
-    width: 600px;
-    height: 400px;
-}
-
---------- EFEITO LINK (ALTERA O FORMATO DO LINK) ----------
-.link1:link {
-    color: orange;
-}
-
---------- EFEITO LINK (ALTERA O FORMATO DO LINK JÁ VISITADO) ----------
-.link1:visited {
-    color: yellow
+.p::before{
+    content: 'Danilo ';
+    background-color: red;
 }
 */
-
