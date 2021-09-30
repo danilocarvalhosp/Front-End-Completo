@@ -7,46 +7,58 @@ html, body {
     height: 100%;
 }
 
-.bg{
-    /*
-    width: 100%;
-    margin: 0 auto;
-    height: 30vh;
+.teste, .teste1, .teste2 {
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+    /* background-color: #ccc; */
+}
+
+.teste1 {
+    background-color: rgb(98,98,98);
+}
+
+.teste2 {
+    background-color: rgb(50,50,50);
+}
+
+/* 
+--------- EFEITO HOVER (AO PASSAR O MOUSE SOBRE) ----------
+.teste:hover{
+    height: 900px;
+    background-color: blue;
+}
+
+.teste:hover,.teste1,.teste2 {
+    vertical-align: top;
+}
+
+--------- EFEITO ACTIVE (AO PRESSIONAR O MOUSE SOBRE) ----------
+.teste:active{
+    background-color: black;
+}
+
+--------- EFEITO FOCUS (EM FORMULÁRIOS, QUANDO O CAMPO TIVER FOCO) ----------
+.teste:focus {
     background-color: red;
-    background-image: url('../images/sunset.jpg');
-    background-size: cover;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    /*
-    background-size: cover;
-    background-repeat: no-repeat;    
-    background-position: 0 0;
-    */
 }
 
-.box{
-    width: 100%;
-    margin: 80px auto;
-    text-align: center;
-    background-color: rgb(200,200,200);
+.textarea1 {
+    display: block;
+    width: 600px;
+    height: 400px;
 }
 
-.item{
-    width: 100%;
-    display: inline-block;
+--------- EFEITO LINK (ALTERA O FORMATO DO LINK) ----------
+.link1:link {
+    color: orange;
 }
 
-.item img{
-    width: 16%;
+--------- EFEITO LINK (ALTERA O FORMATO DO LINK JÁ VISITADO) ----------
+.link1:visited {
+    color: yellow
 }
+*/
 
-.item p{
-    background-color: purple;
-    display: inline-block;
-    text-align: right;
-
-}
-
-.last{
-    margin-right: 0;
-}
