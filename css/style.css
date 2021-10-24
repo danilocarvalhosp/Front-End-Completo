@@ -3,65 +3,30 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../Fonts/OpenSans-Variable.ttf');
+}
+
 html, body {
     height: 100%;
+    font-family: "Open Sans";
 }
 
-form{
-    text-align: center;
-    background-color: #ccc;
-    padding: 30px 0;
-}
-
-input[type=checkbox]{
-    display: none;
-}
-
-label{
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-color: green;
-}
-
-input[type=checkbox]:checked + label{
-    background-color: red;
+form *{
+    font-family: "Open Sans";
 }
 
 /*
-input[type=file]{
-    display: none;
+form > *{
+    font-family: "Open Sans";
 }
 
-label{
-    display: block;
-    margin: 20px auto;
-    width: 220px;
-    height: 40px;
-    background-color: #ccc;;
-    color: white;
-    text-align: center;
-    line-height: 40px;
-    cursor: pointer;
-    font-size: 17px;
-}
-*/
-
-/*
-form select{
-    width: 220px;
-    height: 30px;
-    border: 0;
-    padding-left: 20px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-image:url('../images/sprite.png');
-    background-size: 10px 20px;
-    background-repeat: no-repeat;
-    background-position: 96% 8px;
+.box p{
+    font-family: "Open Sans";
 }
 
-select::-ms-expand{
-    display: none;
+.text {
+    font-family: Tahoma !important;
 }
 */
